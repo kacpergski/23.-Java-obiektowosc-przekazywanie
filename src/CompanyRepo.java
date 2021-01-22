@@ -11,18 +11,19 @@ int iterator =0;
         companies[iterator] = company;
         iterator++;}
     else {
-        System.out.println("ZA mało miesc na firmę: " );
+        System.out.println("ZA mało miejsc na firmę: " );
 company.display();
     }
         // ddodanie company do tablicy companies
   }
 
-  void displayAll(){
-      for (int i = 0; i < companies.length && companies[i]!= null; i++) {
+  void displayAll() {
+      for (int i = 0; i < companies.length && companies[i] != null; i++) {
           System.out.println("---------------");
-           companies[i].display();
+          companies[i].display();
       }
 
-Company findNIP (long NIP){    jghg
-  }
+//Company findNIP (long NIP){    jghg
 
+  }
+}
